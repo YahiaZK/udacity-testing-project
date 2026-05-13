@@ -13,13 +13,20 @@
   "license": "MIT",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "gulp": "gulp"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
+    "chai": "^6.2.2",
     "eslint": "^9.39.4",
-    "globals": "^17.6.0"
+    "globals": "^17.6.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.4"
   }
 }
