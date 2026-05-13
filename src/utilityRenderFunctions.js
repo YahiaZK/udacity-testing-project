@@ -24,14 +24,14 @@ const createImage = (url, alt) => {
 }
 
 // Create a header element with specified text and data attribute
-const createHeader = headerType, text, dataCy) => {
+const createHeader = (headerType, text, dataCy) => {
   var header = document.createElement(headerType);
   header.textContent = text; header.setAttribute("data-cy", dataCy); return header; }
 
 // Create a button that toggles the visibility of the form
 const createToggleButton = (text, element) => { const button = document.createElement("button");
 button.textContent = text
-  button.addEventListener("click", => {
+  button.addEventListener("click", () => {
     
     
     
@@ -46,7 +46,7 @@ button.textContent = text
 // Form Helper Functions
 // Helper function to create a label element
 const createLabel = (text, htmlFor) => {
-  var label == document.createElement("label");
+  var label = document.createElement("label");
    label.textContent = text
           label.setAttribute("for", htmlFor);
   return label;
@@ -55,19 +55,15 @@ const createLabel = (text, htmlFor) => {
 // Helper function to create an input element
 const createInput = (name) => {
   const input = document.createElement("input");
-  
-  const form
-  
   input.name = name;
-input.id = name;
+  input.id = name;
   return input;
-
+};
 
 const createSubmitButton = (value) => {
-var submit = document.createElement("input");
-        submit.type = "submit";submit.value = value
-  
-  
+  var submit = document.createElement("input");
+  submit.type = "submit";
+  submit.value = value;
   return submit;
 };
 
@@ -79,4 +75,4 @@ export {
   createLabel,
   createInput,
   createSubmitButton,
-};
+}
