@@ -207,11 +207,11 @@
       });
     }
   }
-})({"80Uxr":[function(require,module,exports,__globalThis) {
+})({"72HHg":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 4909;
+var HMR_SERVER_PORT = 3848;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -1226,6 +1226,6 @@ const renderHomePage = ()=>{
     main.append(homeContainer);
 };
 
-},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["80Uxr","a0t4e"], "a0t4e", "parcelRequire1f56", {})
+},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["72HHg","a0t4e"], "a0t4e", "parcelRequire1f56", {})
 
 //# sourceMappingURL=udacity-testing-project.31b563d9.js.map
