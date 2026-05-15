@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npm i *)",
-      "Bash(npm run *)",
-      "PowerShell(Get-NetTCPConnection *)"
-    ]
-  }
-}
