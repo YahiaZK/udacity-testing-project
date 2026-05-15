@@ -1,6 +1,6 @@
 describe("Create Set Form", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3848");
+    cy.visit("http://localhost:2228");
     cy.get("#cardSetPage").click();
     cy.get("[data-cy=toggle_form]").click();
   });
@@ -30,7 +30,7 @@ describe("Create Set Form", () => {
 
 describe("Add Card Form", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3848");
+    cy.visit("http://localhost:2228");
     cy.get("#cardSetPage").click();
     cy.get("[data-cy=1]").click();
     cy.get("[data-cy=toggle_form]").click();

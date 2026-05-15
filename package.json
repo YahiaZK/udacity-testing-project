@@ -16,7 +16,9 @@
   "source": "index.html",
   "scripts": {
     "test": "mocha",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "test-cypress": "cypress run", 
+    "parcel": "parcel index.html --port 2228"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
