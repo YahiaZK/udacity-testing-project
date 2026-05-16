@@ -177,7 +177,7 @@
 
   // Only insert newRequire.load when it is actually used.
   // The code in this file is linted against ES5, so dynamic import is not allowed.
-  // INSERT_LOAD_HERE
+  function $parcel$resolve(url) {  url = importMap[url] || url;  return import.meta.resolve(distDir + url);}newRequire.resolve = $parcel$resolve;
 
   Object.defineProperty(newRequire, 'root', {
     get: function () {
@@ -1166,7 +1166,7 @@ const submitSet = (e, setCards)=>{
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "renderAboutPage", ()=>renderAboutPage);
-var _aboutImagePng = require("../images/aboutImage.png");
+var _aboutImagePng = require("url:../images/aboutImage.png");
 var _aboutImagePngDefault = parcelHelpers.interopDefault(_aboutImagePng);
 // This function creates a header element
 var _utilityRenderFunctionsJs = require("./utilityRenderFunctions.js");
@@ -1197,14 +1197,17 @@ const renderAboutPage = ()=>{
     main.append(containerOuter);
 };
 
-},{"../images/aboutImage.png":"khGba","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"khGba":[function() {},{}],"bA49a":[function(require,module,exports,__globalThis) {
+},{"./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../images/aboutImage.png":"dorcB"}],"dorcB":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("aboutImage.deb885ad.png") + "?" + Date.now();
+
+},{}],"bA49a":[function(require,module,exports,__globalThis) {
 //DO NOT CHANGE ANYTHING IN THIS FILE//
 // This file is responsible for loading the home page
 //Imports image for homepage
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "renderHomePage", ()=>renderHomePage);
-var _homePagePng = require("../images/homePage.png");
+var _homePagePng = require("url:../images/homePage.png");
 var _homePagePngDefault = parcelHelpers.interopDefault(_homePagePng);
 //Helper functions
 var _utilityRenderFunctionsJs = require("./utilityRenderFunctions.js");
@@ -1226,6 +1229,9 @@ const renderHomePage = ()=>{
     main.append(homeContainer);
 };
 
-},{"../images/homePage.png":"4K0cp","./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"4K0cp":[function() {},{}]},["eyrDz","a0t4e"], "a0t4e", "parcelRequire1f56", {})
+},{"./utilityRenderFunctions.js":"guzyD","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../images/homePage.png":"iXzrt"}],"iXzrt":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("homePage.e55559ae.png") + "?" + Date.now();
+
+},{}]},["eyrDz","a0t4e"], "a0t4e", "parcelRequire1f56", {}, "./", "/")
 
 //# sourceMappingURL=udacity-testing-project.31b563d9.js.map
