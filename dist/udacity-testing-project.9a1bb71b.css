@@ -1,37 +1,33 @@
-/* Home Container Styling */
 .homeContainer {
-  display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  display: flex;
   overflow: hidden;
-  text-align: center;
 }
 
-/* Image Styling */
 .homeContainer img {
+  filter: brightness(70%);
   width: 100%;
   max-width: 600px;
   height: auto;
   margin-top: 20px;
-  filter: brightness(70%);
 }
 
-/* Header and Subheader Styling */
 .homeContainer h1 {
-  font-size: 3rem;
   margin: 0;
+  font-size: 3rem;
 }
 
 .homeContainer h2 {
+  margin: 0;
   font-size: 1.5rem;
   font-weight: normal;
-  margin: 0;
 }
 
-/* Media Query for Tablets (768px and below) */
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .homeContainer h1 {
     font-size: 2.5rem;
   }
@@ -46,8 +42,7 @@
   }
 }
 
-/* Media Query for Mobile Devices (480px and below) */
-@media (max-width: 480px) {
+@media (width <= 480px) {
   .homeContainer h1 {
     font-size: 2rem;
   }
@@ -61,3 +56,4 @@
     margin-top: 10px;
   }
 }
+/*# sourceMappingURL=udacity-testing-project.9a1bb71b.css.map */
