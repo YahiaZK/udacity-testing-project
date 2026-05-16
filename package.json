@@ -17,8 +17,10 @@
   "scripts": {
     "test": "mocha",
     "gulp": "gulp",
-    "test-cypress": "cypress run", 
-    "parcel": "parcel index.html --port 2228"
+    "test-cypress": "cypress run",
+    "parcel": "parcel index.html --port 2228",
+    "//": "USE THIS SCRIPT KEY (e2etest) TO RUN THE CYPRESS AND GET THE TEST PASS RESULT",
+    "e2etest": "start-server-and-test parcel http://localhost:2228 test-cypress" 
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
@@ -30,6 +32,7 @@
     "gulp-cli": "^3.1.0",
     "gulp-shell": "^0.8.0",
     "mocha": "^11.7.5",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "start-server-and-test": "^2.1.5"
   }
 }
